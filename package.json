@@ -1,0 +1,28 @@
+{
+  "name": "qingyuexi",
+  "version": "1.0.0",
+  "description": "wx yilianyun printer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingyuexi/koa-wx-printer.git"
+  },
+  "keywords": [
+    "printer",
+    "koa",
+    "koa-wx",
+    "koa-wx-printer"
+  ],
+  "author": "qingyuexi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qingyuexi/koa-wx-printer/issues"
+  },
+  "homepage": "https://github.com/qingyuexi/koa-wx-printer#readme",
+  "dependencies": {
+    "co-request": "^1.0.0"
+  }
+}
