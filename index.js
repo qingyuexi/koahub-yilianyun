@@ -27,6 +27,7 @@ module.exports = wxprinter;
  * @see https://github.com/qingyuexi/koa-wx-printer
  * @api public以下是易联云打印机
  */
+ //使用 yield wxprinter(opts);
 // var opts = {
 //     "partner": 914,
 //     "apikey": "3785b31b2c84f3c47e51a6c4481f8a5fc2eea72a",
@@ -36,7 +37,7 @@ module.exports = wxprinter;
 //     "content": '2222'
 // }
 
-function wxprinter(opts) {
+function* wxprinter(opts) {
 	data = opts || {};
 
     var host = 'http://open.10ss.net:8888';
