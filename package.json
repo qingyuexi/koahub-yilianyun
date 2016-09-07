@@ -1,7 +1,7 @@
 {
-  "name": "qingyuexi",
+  "name": "koahub-yilianyun",
   "version": "1.0.2",
-  "description": "wx yilianyun printer",
+  "description": "微信易联云打印机接口",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
